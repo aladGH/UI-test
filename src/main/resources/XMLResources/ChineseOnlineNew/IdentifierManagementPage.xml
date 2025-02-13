@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map>
+    <!-- 消息抄送页 -->
+    <page pageName="IdentifierManagementPage">
+        <locator type="byXpath" value='/html/body/div[1]/section/main/main/div/div/section/main/div/div/div[3]/div/div[1]/div/div[1]'>苹果</locator>
+        <locator type="byXpath" value='//*[@id="global-app-content"]/div/div/div[3]/div/div[1]/div/div[2]/div[2]'>苹果-编辑按钮</locator>
+        <locator type="byXpath" value='//*[@id="global-app-content"]/div/div/div[3]/div/div[1]/form/div/div/div/div/div/div/div[2]'>苹果-新增按钮</locator>
+        <locator type="byXpath" value='//*[@id="global-app-content"]/div/div/div[3]/div/div[1]/div/div[2]/div[1]'>苹果-保存按钮</locator>
+        <locator type="byXpath" value='//*[@id="global-app-content"]/div/div/div[3]/div/div[1]/div/div[2]/div[2]'>苹果-取消按钮</locator>
+        <locator type="byXpath" value='/html/body/div[1]/section/main/main/div/div/section/main/div/div/div[3]/div/div[2]/div/div[1]'>安卓</locator>
+        <locator type="byXpath" value='//*[@id="global-app-content"]/div/div/div[3]/div/div[2]/div/div[2]/div[2]'>安卓-编辑按钮</locator>
+        <locator type="byXpath" value='//*[@id="global-app-content"]/div/div/div[3]/div/div[2]/form/div/div/div/div/div/div/div[2]'>安卓-新增按钮</locator>
+        <locator type="byXpath" value='//*[@id="global-app-content"]/div/div/div[3]/div/div[2]/div/div[2]/div[1]'>安卓-保存按钮</locator>
+        <locator type="byXpath" value='//*[@id="global-app-content"]/div/div/div[3]/div/div[2]/div/div[2]/div[2]'>安卓-取消按钮</locator>
+        <locator type="byXpath" value='/html/body/div[1]/section/main/main/div/div/section/main/div/div/div[3]/div/div[3]/div/div[1]'>鸿蒙</locator>
+        <locator type="byXpath" value='//*[@id="global-app-content"]/div/div/div[3]/div/div[3]/div/div[2]/div[2]'>鸿蒙-编辑按钮</locator>
+        <locator type="byXpath" value='//*[@id="global-app-content"]/div/div/div[3]/div/div[3]/form/div/div/div/div/div/div/div[2]'>鸿蒙-新增按钮</locator>
+        <locator type="byXpath" value='//*[@id="global-app-content"]/div/div/div[3]/div/div[3]/div/div[2]/div[1]'>鸿蒙-保存按钮</locator>
+        <locator type="byXpath" value='//*[@id="global-app-content"]/div/div/div[3]/div/div[3]/div/div[2]/div[2]'>鸿蒙-取消按钮</locator>
+
+        <locator type="byXpath" value='//*[@id="global-app-content"]/div/div/div[3]/div/div[4]/div/div[2]'>标识安全验证-文案</locator>
+        <locator type="byXpath" value='//*[@id="global-app-content"]/div/div/div[3]/div/div[4]/div/div[1]/button'>标识安全验证-开关</locator>
+        <locator type="byClassName" value='ant-modal-confirm-title'>标识安全验证-弹窗-标题</locator>
+        <locator type="byClassName" value='ant-modal-confirm-content'>标识安全验证-弹窗-文案</locator>
+        <locator type="byClassName" value='ant-btn-primary'>标识安全验证-弹窗-确定</locator>
+        <locator type="byClassName" value='ant-btn-default'>标识安全验证-弹窗-取消</locator>
+    </page>
+</map>

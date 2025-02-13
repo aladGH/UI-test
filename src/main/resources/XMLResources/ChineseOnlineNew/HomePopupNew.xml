@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map>
+    <!-- 首页弹窗页 -->
+    <page pageName="HomePopupNew">
+        <!--        新版页面引导弹窗-->
+        <locator type="byXpath" value='/html/body/div[2]/div/div[2]/div/div[2]'>新版页面引导弹窗</locator>
+        <!--        全新的布局样式-->
+        <locator type="byCssSelector" value="#rc-tabs-0-panel-1 > div > svg > g > g:nth-child(2) > image">第一页底图</locator>
+        <locator type="byCssSelector" value="#rc-tabs-0-panel-1 > div > svg > g > g:nth-child(3) > image">内容多不好找？</locator>
+        <locator type="byCssSelector" value="#rc-tabs-0-panel-1 > div > svg > g > g:nth-child(4) > image">新手上路？</locator>
+        <locator type="byCssSelector" value="#rc-tabs-0-panel-1 > div > svg > g > g:nth-child(5) > image">一眼找重点？</locator>
+        <locator type="byXpath" value='//*[@id="rc-tabs-0-tab-1"]/div/div[2]'>简洁入口一览无余</locator>
+        <!--        自助化功能配置介绍-->
+        <locator type="byXpath" value='//*[@id="rc-tabs-0-tab-2"]/div/div[1]'>自助化功能配置</locator>
+        <locator type="byCssSelector" value="#rc-tabs-0-panel-2 > div > svg > g > g:nth-child(2) > image">第二页底图</locator>
+        <locator type="byCssSelector" value="#rc-tabs-0-panel-2 > div > svg > g > g:nth-child(3) > image">不同产品快捷切换</locator>
+        <locator type="byCssSelector" value="#rc-tabs-0-panel-2 > div > svg > g > g:nth-child(4) > image">功能类型重新整合</locator>
+        <locator type="byCssSelector" value="#rc-tabs-0-panel-2 > div > svg > g > g:nth-child(5) > image">高频功能一键点亮</locator>
+        <locator type="byXpath" value='//*[@id="rc-tabs-0-tab-2"]/div/div[2]'>自由开通便捷收藏</locator>
+        <!--        清晰的账单费用介绍-->
+        <locator type="byXpath" value='//*[@id="rc-tabs-0-tab-3"]/div/div[1]'>清晰的账单费用</locator>
+        <locator type="byCssSelector" value="#rc-tabs-0-panel-3 > div > svg > g > g:nth-child(2) > image">第三页底图</locator>
+        <locator type="byCssSelector" value="#rc-tabs-0-panel-3 > div > svg > g > g:nth-child(3) > image">费用相关内容聚合</locator>
+        <locator type="byCssSelector" value="#rc-tabs-0-panel-3 > div > svg > g > g:nth-child(4) > image">余额情况清晰明了</locator>
+        <locator type="byCssSelector" value="#rc-tabs-0-panel-3 > div > svg > g > g:nth-child(5) > image">账单构成一览无余</locator>
+        <locator type="byXpath" value='//*[@id="rc-tabs-0-tab-3"]/div/div[2]'>消耗占比明细清晰</locator>
+        <!--        灵活的消息订阅介绍-->
+        <locator type="byXpath" value='//*[@id="rc-tabs-0-tab-4"]/div/div[1]'>灵活的消息订阅</locator>
+        <locator type="byCssSelector" value="#rc-tabs-0-panel-4 > div > svg > g > g:nth-child(2) > image">第四页底图</locator>
+        <locator type="byCssSelector" value="#rc-tabs-0-panel-4 > div > svg > g > g:nth-child(3) > image">消息和接收人双维度设置</locator>
+        <locator type="byCssSelector" value="#rc-tabs-0-panel-4 > div > svg > g > g:nth-child(4) > image">不同消息类型灵活配置接收人及方式</locator>
+        <locator type="byXpath" value='//*[@id="rc-tabs-0-tab-4"]/div/div[2]'>多种角色随意组合</locator>
+        <!--        查看升级文档-->
+        <locator type="byXpath" value='/html/body/div[2]/div/div[2]/div/div[2]/div[3]/div/div[1]'>查看升级文档</locator>
+        <!--        暂不体验-->
+        <locator type="byXpath" value='/html/body/div[2]/div/div[2]/div/div[2]/div[3]/div/div[2]'>跳过教程</locator>
+        <locator type="byXpath" value="//*[@id='root-master']/section/main/aside/div/div/button/div/div/div/div/div[2]/div/div[2]/button/span">知道了</locator>
+
+    </page>
+</map>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map>
+    <!-- 资源包 -->
+    <page pageName="ResourcePack">
+
+        <locator type="byAttribute" name="nim-ui" value='RI.ts.5b887a'>资源包-按钮</locator>
+    </page>
+</map>

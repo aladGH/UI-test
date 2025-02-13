@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map>
+    <!-- 易盾登录页 -->
+    <page pageName="YiDunLoginPage">
+        <locator type="byXpath" value='//*[@id="userName"]'>用户名</locator>
+        <locator type="byXpath" value='//*[@id="password"]'>密码</locator>
+        <locator type="byXpath" value='//*[@id="domain"]'>域名</locator>
+        <locator type="byXpath" value='//*[@id="submit"]'>登录按钮</locator>
+    </page>
+</map>

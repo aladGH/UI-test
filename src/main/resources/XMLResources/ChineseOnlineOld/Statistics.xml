@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map>
+    <!-- 数据统计 -->
+    <page pageName="Statistics">
+        <locator type="byAttribute" name="nim-ui" value='RI.ts.f6761e'>数据统计-按钮</locator>
+
+        <locator type="byAttribute" name="nim-ui" value='PSI.6598b3'>数据统计-用户</locator>
+        <locator type="byAttribute" name="nim-ui" value='PSI.fb5a17'>数据统计-IM</locator>
+        <locator type="byAttribute" name="nim-ui" value='PSI.b5ca48'>数据统计-信令</locator>
+        <locator type="byAttribute" name="nim-ui" value='PSI.4babdf'>数据统计-G1</locator>
+        <locator type="byAttribute" name="nim-ui" value='PSI.efa3bf'>数据统计-G2</locator>
+        <locator type="byAttribute" name="nim-ui" value='PSI.a699bc'>数据统计-教学白板</locator>
+        <locator type="byAttribute" name="nim-ui" value='PSI.a32263'>数据统计-直播</locator>
+        <locator type="byAttribute" name="nim-ui" value='PSI.7710b2'>数据统计-点播</locator>
+        <locator type="byAttribute" name="nim-ui" value='PSI.82417a'>数据统计-短信</locator>
+        <locator type="byAttribute" name="nim-ui" value='PSI.a613ce'>数据统计-云呼叫中心</locator>
+        <locator type="byAttribute" name="nim-ui" value='PSI.00b6c6'>数据统计-电话</locator>
+        <locator type="byAttribute" name="nim-ui" value='PSI.2c8cac'>数据统计-号码隐私保护</locator>
+    </page>
+</map>

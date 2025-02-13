@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map>
+    <!-- 登录页 -->
+    <page pageName="loginPage">
+        <locator type="byXpath" value='//*[@id="bg"]/div[2]/div/div/div/div/div[2]/form/div[1]/div/input'>用户名</locator>
+        <locator type="byXpath" value='//*[@id="bg"]/div[2]/div/div/div/div/div[2]/form/div[2]/div/input'>密码</locator>
+        <locator type="byXpath" value='//*[@id="bg"]/div[2]/div/div/div/div/div[2]/form/div[6]/button'>登录按钮</locator>
+        <locator type="byXpath" value='//*[@id="bg"]/div[2]/div/div/div/div/div[2]/div/div[2]'>登录切换按钮</locator>
+        <locator type="byXpath" value='//*[@id="bg"]/div[2]/div/div/div/div/div/form/div[7]/div[1]/a'>注册按钮</locator>
+        <locator type="byXpath" value='//*[@id="bg"]/div[2]/div/div/div/div/div[2]/form/div[7]/div[2]/a'>忘记密码</locator>
+        <locator type="byXpath" value='//*[@id="bg"]/div[2]/div/div/div/div/div[2]/form/div[5]/div[3]/a'>切换子账号按钮</locator>
+
+        <locator type="byXpath" value='//*[@id="app"]/div[4]/div/div[2]/a/i'>关闭反垃圾弹窗</locator>
+        <locator type="byXpath" value='//*[@id="app"]/div[3]/div/div[2]/a'>关闭子账号弹窗</locator>
+    </page>
+</map>

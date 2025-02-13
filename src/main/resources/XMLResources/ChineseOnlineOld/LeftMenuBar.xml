@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map>
+    <!-- 左侧菜单栏页 -->
+    <page pageName="LeftMenuBar">
+        <locator type="byAttribute" name="nim-ui" value='RI.ts.92b8e8'>解决方案</locator>
+        <locator type="byAttribute" name="nim-ui" value='RI.ts.c24a95'>工单</locator>
+        <locator type="byAttribute" name="nim-ui" value='RI.ts.1b2014'>提交工单存在</locator>
+        <locator type="byAttribute" name="nim-ui" value='RI.ts.abcc62'>我的工单存在</locator>
+        <locator type="byAttribute" name="nim-ui" value='RI.ts.f6761e'>数据统计</locator>
+        <locator type="byAttribute" name="nim-ui" value='RI.ts.91a0c2'>服务监控平台</locator>
+        <locator type="byAttribute" name="nim-ui" value='RI.ts.4a9823'>订单</locator>
+        <locator type="byAttribute" name="nim-ui" value='PBR.ts.991679'>账单</locator>
+        <locator type="byAttribute" name="nim-ui" value='PBR.ts.59f398'>账单总览存在</locator>
+        <locator type="byAttribute" name="nim-ui" value='PBR.ts.05f5a4'>账单明细存在</locator>
+        <locator type="byAttribute" name="nim-ui" value='RI.ts.20ec0b'>流水明细</locator>
+        <locator type="byAttribute" name="nim-ui" value='RI.ts.e0cb27'>代金券</locator>
+        <locator type="byAttribute" name="nim-ui" value='RI.ts.5b887a'>资源包</locator>
+        <locator type="byAttribute" name="nim-ui" value='RI.ts.cdfdc6'>发票</locator>
+
+        <locator type="byAttribute" name="nim-ui" value='RI.ts.4a9823'>订单-按钮</locator>
+
+        <locator type="byXpath" value='//*[@id="layout-content"]/main/div/div[1]/div/div[2]/a'>订单-申请合同入口</locator>
+        <locator type="byXpath" value='//*[@id="layout-content"]/main/div/div[1]/div/div[3]/a'>订单-申请开票入口</locator>
+
+        <locator type="byAttribute" name="nim-ui" value='PBR.ts.991679'>账单-按钮</locator>
+        <locator type="byAttribute" name="nim-ui" value='PBR.ts.59f398'>账单-账单总览</locator>
+        <locator type="byAttribute" name="nim-ui" value='PBR.ts.05f5a4'>账单-账单明细</locator>
+
+        <locator type="byAttribute" name="nim-ui" value='RI.ts.20ec0b'>流水明细-按钮</locator>
+
+        <locator type="byAttribute" name="nim-ui" value='RI.ts.e0cb27'>代金券-按钮</locator>
+
+        <locator type="byAttribute" name="nim-ui" value='RI.ts.5b887a'>资源包-按钮</locator>
+
+        <locator type="byAttribute" name="nim-ui" value='RI.ts.cdfdc6'>发票-按钮</locator>
+
+        <locator type="byXpath" value='//*[@id="layout-content"]/main/div/div[4]/div[1]/button/span'>发票-申请开票按钮存在</locator>
+        <locator type="byXpath" value='//*[@id="layout-content"]/main/div/div[3]/div/div/div[1]/div/div[1]/a'>发票-修改开票信息</locator>
+        <locator type="byXpath" value='//*[@id="layout-content"]/main/div/div[3]/div/div/div[2]/div/div[1]/a'>发票-修改地址信息</locator>
+    </page>
+</map>
