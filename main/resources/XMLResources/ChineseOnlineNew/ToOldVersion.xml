@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<map>
-    <!-- 回旧版 -->
-    <page pageName="ToOldVersion">
-        <locator type="byCssSelector" value='#root-master > section > header > img'>左上角LOGO</locator>
-        <locator type="byCssSelector" value='#root-master > section > main > aside > div > div > button'>切换旧版按钮</locator>
-    </page>
-</map>

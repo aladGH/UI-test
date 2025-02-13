@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<map>
-    <!-- 到新版去 -->
-    <page pageName="ToNewVersion">
-        <locator type="byXpath" value='/html/body/div[1]/section/section/aside/div/div/ul/li[1]'>概览</locator>
-        <locator type="byXpath" value='//*[@id="layout-content"]/main/div/div[1]/div/div'>切换到新版按钮</locator>
-        <locator type="byXpath" value="//*[@id='root-master']/section/main/aside/div/div/button/div/div/div/div/div[2]/div/div[2]/button/span">知道了</locator>
-    </page>
-</map>

@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<map>
-    <!-- 流水明细 -->
-    <page pageName="FlowDetails">
-
-        <locator type="byAttribute" name="nim-ui" value='RI.ts.20ec0b'>流水明细-按钮</locator>
-    </page>
-</map>

@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<map>
-    <!-- 服务监控平台 -->
-    <page pageName="ServiceMonitoringPlatform">
-        <locator type="byAttribute" name="nim-ui" value='RI.ts.91a0c2'>服务监控平台-按钮</locator>
-
-    </page>
-</map>

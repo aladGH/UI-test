@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<map>
-    <!-- 代金券 -->
-    <page pageName="Coupon">
-
-        <locator type="byAttribute" name="nim-ui" value='RI.ts.e0cb27'>代金券-按钮</locator>
-    </page>
-</map>
