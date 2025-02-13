@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map>
+    <!-- 消息抄送页 -->
+    <page pageName="CertificateManagementPage">
+        <locator type="byXpath" value='//*[@id="global-app-content"]/div/div/div[3]/div/div[1]/div[1]/b'>IOS-P12-标题</locator>
+        <locator type="byXpath" value='//*[@id="global-app-content"]/div/div/div[3]/div/div[1]/div[1]/button'>IOS-P12-添加证书</locator>
+        <locator type="byXpath" value='//*[@id="global-app-content"]/div/div/div[3]/div/div[1]/div[2]/div/div/div/div/div/table/thead/tr/th[1]'>IOS-P12-表格-证书名称</locator>
+        <locator type="byXpath" value='//*[@id="global-app-content"]/div/div/div[3]/div/div[1]/div[2]/div/div/div/div/div/table/thead/tr/th[2]'>IOS-P12-表格-P12证书</locator>
+        <locator type="byXpath" value='//*[@id="global-app-content"]/div/div/div[3]/div/div[1]/div[2]/div/div/div/div/div/table/thead/tr/th[3]'>IOS-P12-表格-证书密钥</locator>
+        <locator type="byXpath" value='//*[@id="global-app-content"]/div/div/div[3]/div/div[1]/div[2]/div/div/div/div/div/table/thead/tr/th[4]'>IOS-P12-表格-证书有效期</locator>
+        <locator type="byXpath" value='//*[@id="global-app-content"]/div/div/div[3]/div/div[1]/div[2]/div/div/div/div/div/table/thead/tr/th[5]'>IOS-P12-表格-有效期剩余时间</locator>
+        <locator type="byXpath" value='//*[@id="global-app-content"]/div/div/div[3]/div/div[1]/div[2]/div/div/div/div/div/table/thead/tr/th[6]'>IOS-P12-表格-证书环境</locator>
+        <locator type="byXpath" value='//*[@id="global-app-content"]/div/div/div[3]/div/div[1]/div[2]/div/div/div/div/div/table/thead/tr/th[7]'>IOS-P12-表格-iOS-Bundle-Identifier</locator>
+        <locator type="byXpath" value='//*[@id="global-app-content"]/div/div/div[3]/div/div[1]/div[2]/div/div/div/div/div/table/thead/tr/th[8]'>IOS-P12-表格-操作</locator>
+
+        <locator type="byXpath" value='//*[@id="global-app-content"]/div/div/div[3]/div/div[2]/div[1]/b'>IOS-P8-标题</locator>
+        <locator type="byXpath" value='//*[@id="global-app-content"]/div/div/div[3]/div/div[2]/div[1]/button'>IOS-P8-添加证书</locator>
+        <locator type="byXpath" value='//*[@id="global-app-content"]/div/div/div[3]/div/div[2]/div[2]/div/div/div/div/div/table/thead/tr/th[1]'>IOS-P8-表格-证书名称</locator>
+        <locator type="byXpath" value='//*[@id="global-app-content"]/div/div/div[3]/div/div[2]/div[2]/div/div/div/div/div/table/thead/tr/th[2]'>IOS-P8-表格-P8证书</locator>
+        <locator type="byXpath" value='//*[@id="global-app-content"]/div/div/div[3]/div/div[2]/div[2]/div/div/div/div/div/table/thead/tr/th[3]'>IOS-P8-表格-证书环境</locator>
+        <locator type="byXpath" value='//*[@id="global-app-content"]/div/div/div[3]/div/div[2]/div[2]/div/div/div/div/div/table/thead/tr/th[4]'>IOS-P8-表格-iOS-Bundle-Identifier</locator>
+        <locator type="byXpath" value='//*[@id="global-app-content"]/div/div/div[3]/div/div[2]/div[2]/div/div/div/div/div/table/thead/tr/th[5]'>IOS-P8-表格-操作</locator>
+
+        <locator type="byXpath" value='//*[@id="global-app-content"]/div/div/div[3]/div/div[3]/div[1]/b'>IOS-PushKit-标题</locator>
+        <locator type="byXpath" value='//*[@id="global-app-content"]/div/div/div[3]/div/div[3]/div[1]/button'>IOS-PushKit-添加证书</locator>
+        <locator type="byXpath" value='//*[@id="global-app-content"]/div/div/div[3]/div/div[3]/div[2]/div/div/div/div/div/table/thead/tr/th[1]'>IOS-PushKit-表格-证书名称</locator>
+        <locator type="byXpath" value='//*[@id="global-app-content"]/div/div/div[3]/div/div[3]/div[2]/div/div/div/div/div/table/thead/tr/th[2]'>IOS-PushKit-表格-P12证书</locator>
+        <locator type="byXpath" value='//*[@id="global-app-content"]/div/div/div[3]/div/div[3]/div[2]/div/div/div/div/div/table/thead/tr/th[3]'>IOS-PushKit-表格-证书密钥</locator>
+        <locator type="byXpath" value='//*[@id="global-app-content"]/div/div/div[3]/div/div[3]/div[2]/div/div/div/div/div/table/thead/tr/th[4]'>IOS-PushKit-表格-证书有效期</locator>
+        <locator type="byXpath" value='//*[@id="global-app-content"]/div/div/div[3]/div/div[3]/div[2]/div/div/div/div/div/table/thead/tr/th[5]'>IOS-PushKit-表格-有效期剩余时间</locator>
+        <locator type="byXpath" value='//*[@id="global-app-content"]/div/div/div[3]/div/div[3]/div[2]/div/div/div/div/div/table/thead/tr/th[6]'>IOS-PushKit-表格-证书环境</locator>
+        <locator type="byXpath" value='//*[@id="global-app-content"]/div/div/div[3]/div/div[3]/div[2]/div/div/div/div/div/table/thead/tr/th[7]'>IOS-PushKit-表格-iOS-Bundle-Identifier</locator>
+        <locator type="byXpath" value='//*[@id="global-app-content"]/div/div/div[3]/div/div[3]/div[2]/div/div/div/div/div/table/thead/tr/th[8]'>IOS-PushKit-表格-操作</locator>
+
+        <locator type="byXpath" value='//*[@id="global-app-content"]/div/div/div[3]/div/div[4]/div[1]/b'>Android-标题</locator>
+        <locator type="byXpath" value='//*[@id="global-app-content"]/div/div/div[3]/div/div[4]/div[1]/button'>Android-添加证书</locator>
+        <locator type="byXpath" value='//*[@id="global-app-content"]/div/div/div[3]/div/div[4]/div[2]/div/div/div/div/div/table/thead/tr/th[1]'>Android-表格-证书名称</locator>
+        <locator type="byXpath" value='//*[@id="global-app-content"]/div/div/div[3]/div/div[4]/div[2]/div/div/div/div/div/table/thead/tr/th[2]'>Android-表格-证书类型</locator>
+        <locator type="byXpath" value='//*[@id="global-app-content"]/div/div/div[3]/div/div[4]/div[2]/div/div/div/div/div/table/thead/tr/th[2]/div/span[2]'>Android-表格-证书类型-筛选按钮</locator>
+        <locator type="byXpath" value='/html/body/div[2]/div/div/div/ul/li[1]/span'>Android-表格-证书类型-小米</locator>
+        <locator type="byXpath" value='/html/body/div[2]/div/div/div/ul/li[2]/span'>Android-表格-证书类型-华为</locator>
+        <locator type="byXpath" value='/html/body/div[2]/div/div/div/ul/li[3]/span'>Android-表格-证书类型-荣耀</locator>
+        <locator type="byXpath" value='/html/body/div[2]/div/div/div/ul/li[4]/span'>Android-表格-证书类型-魅族</locator>
+        <locator type="byXpath" value='/html/body/div[2]/div/div/div/ul/li[5]/span'>Android-表格-证书类型-谷歌</locator>
+        <locator type="byXpath" value='/html/body/div[2]/div/div/div/ul/li[6]/span'>Android-表格-证书类型-VIVO</locator>
+        <locator type="byXpath" value='/html/body/div[2]/div/div/div/ul/li[7]/span'>Android-表格-证书类型-OPPO</locator>
+        <locator type="byXpath" value='/html/body/div[2]/div/div/div/div[2]/button[1]'>Android-表格-证书类型-重置</locator>
+        <locator type="byXpath" value='/html/body/div[2]/div/div/div/div[2]/button[2]'>Android-表格-证书类型-确定</locator>
+        <locator type="byXpath" value='//*[@id="global-app-content"]/div/div/div[3]/div/div[4]/div[2]/div/div/div/div/div/table/thead/tr/th[3]'>Android-表格-应用包名</locator>
+        <locator type="byXpath" value='//*[@id="global-app-content"]/div/div/div[3]/div/div[4]/div[2]/div/div/div/div/div/table/thead/tr/th[4]'>Android-表格-AppSecret</locator>
+        <locator type="byXpath" value='//*[@id="global-app-content"]/div/div/div[3]/div/div[4]/div[2]/div/div/div/div/div/table/thead/tr/th[5]'>Android-表格-Activity</locator>
+        <locator type="byXpath" value='//*[@id="global-app-content"]/div/div/div[3]/div/div[4]/div[2]/div/div/div/div/div/table/thead/tr/th[6]'>Android-表格-操作</locator>
+        <locator type="byXpath" value='//*[@id="global-app-content"]/div/div/div[3]/div/div[4]/div[3]/div[1]/div/div[1]'>Android-通道优先级文案</locator>
+        <locator type="byXpath" value='//*[@id="global-app-content"]/div/div/div[3]/div/div[4]/div[3]/div[2]/div/div/div/label[1]/span[2]'>Android-厂商推送优先</locator>
+        <locator type="byXpath" value='//*[@id="global-app-content"]/div/div/div[3]/div/div[4]/div[3]/div[2]/div/div/div/label[2]/span[2]'>Android-FCM推送优先</locator>
+        <locator type="byXpath" value='//*[@id="global-app-content"]/div/div/div[3]/div/div[4]/div[3]/div[3]/div/div[2]'>Android-推送优先编辑按钮</locator>
+        <locator type="byXpath" value='//*[@id="global-app-content"]/div/div/div[3]/div/div[4]/div[3]/div[3]/div/div[1]'>Android-推送优先取消按钮</locator>
+        <locator type="byXpath" value='//*[@id="global-app-content"]/div/div/div[3]/div/div[4]/div[3]/div[3]/div/div[2]'>Android-推送优先确定按钮</locator>
+
+        <locator type="byXpath" value='//*[@id="global-app-content"]/div/div/div[3]/div/div[5]/div[1]/b'>HarmonyOS-标题</locator>
+        <locator type="byXpath" value='//*[@id="global-app-content"]/div/div/div[3]/div/div[5]/div[1]/button'>HarmonyOS-添加证书</locator>
+        <locator type="byXpath" value='//*[@id="global-app-content"]/div/div/div[3]/div/div[5]/div[2]/div/div/div/div/div/table/thead/tr/th[1]'>HarmonyOS-表格-证书名称</locator>
+        <locator type="byXpath" value='//*[@id="global-app-content"]/div/div/div[3]/div/div[5]/div[2]/div/div/div/div/div/table/thead/tr/th[2]'>HarmonyOS-表格-应用包名</locator>
+        <locator type="byXpath" value='//*[@id="global-app-content"]/div/div/div[3]/div/div[5]/div[2]/div/div/div/div/div/table/thead/tr/th[3]'>HarmonyOS-表格-ProjectId</locator>
+        <locator type="byXpath" value='//*[@id="global-app-content"]/div/div/div[3]/div/div[5]/div[2]/div/div/div/div/div/table/thead/tr/th[4]'>HarmonyOS-表格-KeyId</locator>
+        <locator type="byXpath" value='//*[@id="global-app-content"]/div/div/div[3]/div/div[5]/div[2]/div/div/div/div/div/table/thead/tr/th[5]'>HarmonyOS-表格-SubAccount</locator>
+        <locator type="byXpath" value='//*[@id="global-app-content"]/div/div/div[3]/div/div[5]/div[2]/div/div/div/div/div/table/thead/tr/th[6]'>HarmonyOS-表格-操作</locator>
+
+    </page>
+</map>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map>
+    <!-- 解决方案 -->
+    <page pageName="Solution">
+        <locator type="byAttribute" name="nim-ui" value='RI.ts.92b8e8'>解决方案按钮存在并点击进入页面</locator>
+
+        <locator type="byXpath" value='//*[@id="layout-content"]/main/div/div[3]/div[1]/div'>语聊房-卡片</locator>
+        <locator type="byXpath" value='//*[@id="layout-content"]/main/div/div[3]/div[1]/div/div[1]/img'>语聊房-图片</locator>
+        <locator type="byXpath" value='//*[@id="layout-content"]/main/div/div[3]/div[1]/div/div[1]/div[1]'>语聊房-标题</locator>
+        <locator type="byXpath" value='//*[@id="layout-content"]/main/div/div[3]/div[1]/div/div[1]/div[2]'>语聊房-文案</locator>
+        <locator type="byXpath" value='//*[@id="layout-content"]/main/div/div[3]/div[1]/div/div[1]/a'>语聊房-查看详情跳转</locator>
+
+        <locator type="byXpath" value='//*[@id="layout-content"]/main/div/div[3]/div[2]/div'>智能手表-卡片</locator>
+        <locator type="byXpath" value='//*[@id="layout-content"]/main/div/div[3]/div[2]/div/div[1]/img'>智能手表-图片</locator>
+        <locator type="byXpath" value='//*[@id="layout-content"]/main/div/div[3]/div[2]/div/div[1]/div[1]'>智能手表-标题</locator>
+        <locator type="byXpath" value='//*[@id="layout-content"]/main/div/div[3]/div[2]/div/div[1]/div[2]'>智能手表-文案</locator>
+        <locator type="byXpath" value='//*[@id="layout-content"]/main/div/div[3]/div[2]/div/div[1]/a'>智能手表-查看详情跳转</locator>
+
+        <locator type="byXpath" value='//*[@id="layout-content"]/main/div/div[3]/div[3]/div'>小程序-卡片</locator>
+        <locator type="byXpath" value='//*[@id="layout-content"]/main/div/div[3]/div[3]/div/div[1]/img'>小程序-图片</locator>
+        <locator type="byXpath" value='//*[@id="layout-content"]/main/div/div[3]/div[3]/div/div[1]/div[1]'>小程序-标题</locator>
+        <locator type="byXpath" value='//*[@id="layout-content"]/main/div/div[3]/div[3]/div/div[1]/div[2]'>小程序-文案</locator>
+        <locator type="byXpath" value='//*[@id="layout-content"]/main/div/div[3]/div[3]/div/div[1]/a'>小程序-查看详情跳转</locator>
+
+        <locator type="byXpath" value='//*[@id="layout-content"]/main/div/div[3]/div[4]/div'>智慧医院-卡片</locator>
+        <locator type="byXpath" value='//*[@id="layout-content"]/main/div/div[3]/div[4]/div/div[1]/img'>智慧医院-图片</locator>
+        <locator type="byXpath" value='//*[@id="layout-content"]/main/div/div[3]/div[4]/div/div[1]/div[1]'>智慧医院-标题</locator>
+        <locator type="byXpath" value='//*[@id="layout-content"]/main/div/div[3]/div[4]/div/div[1]/div[2]'>智慧医院-文案</locator>
+        <locator type="byXpath" value='//*[@id="layout-content"]/main/div/div[3]/div[4]/div/div[1]/a'>智慧医院-查看详情跳转</locator>
+
+        <locator type="byXpath" value='//*[@id="layout-content"]/main/div/div[3]/div[5]/div'>远程面签-卡片</locator>
+        <locator type="byXpath" value='//*[@id="layout-content"]/main/div/div[3]/div[5]/div/div[1]/img'>远程面签-图片</locator>
+        <locator type="byXpath" value='//*[@id="layout-content"]/main/div/div[3]/div[5]/div/div[1]/div[1]'>远程面签-标题</locator>
+        <locator type="byXpath" value='//*[@id="layout-content"]/main/div/div[3]/div[5]/div/div[1]/div[2]'>远程面签-文案</locator>
+        <locator type="byXpath" value='//*[@id="layout-content"]/main/div/div[3]/div[5]/div/div[1]/a'>远程面签-查看详情跳转</locator>
+
+        <locator type="byXpath" value='//*[@id="layout-content"]/main/div/div[3]/div[6]/div'>企业服务-卡片</locator>
+        <locator type="byXpath" value='//*[@id="layout-content"]/main/div/div[3]/div[6]/div/div[1]/img'>企业服务-图片</locator>
+        <locator type="byXpath" value='//*[@id="layout-content"]/main/div/div[3]/div[6]/div/div[1]/div[1]'>企业服务-标题</locator>
+        <locator type="byXpath" value='//*[@id="layout-content"]/main/div/div[3]/div[6]/div/div[1]/div[2]'>企业服务-文案</locator>
+        <locator type="byXpath" value='//*[@id="layout-content"]/main/div/div[3]/div[6]/div/div[1]/a'>企业服务-查看详情跳转</locator>
+
+        <locator type="byXpath" value='//*[@id="layout-content"]/main/div/div[3]/div[7]/div'>电视端视频通话-卡片</locator>
+        <locator type="byXpath" value='//*[@id="layout-content"]/main/div/div[3]/div[7]/div/div[1]/img'>电视端视频通话-图片</locator>
+        <locator type="byXpath" value='//*[@id="layout-content"]/main/div/div[3]/div[7]/div/div[1]/div[1]'>电视端视频通话-标题</locator>
+        <locator type="byXpath" value='//*[@id="layout-content"]/main/div/div[3]/div[7]/div/div[1]/div[2]'>电视端视频通话-文案</locator>
+        <locator type="byXpath" value='//*[@id="layout-content"]/main/div/div[3]/div[7]/div/div[1]/a'>电视端视频通话-查看详情跳转</locator>
+
+        <!--        <locator type="byXpath" value='//*[@id="app"]/div[1]/div/div/div/div[2]/div[8]'>音乐教学-卡片</locator>-->
+        <!--        <locator type="byXpath" value='//*[@id="app"]/div[1]/div/div/div/div[2]/div[8]/img'>音乐教学-图片</locator>-->
+        <!--        <locator type="byXpath" value='//*[@id="app"]/div[1]/div/div/div/div[2]/div[8]/p[1]'>音乐教学-标题</locator>-->
+        <!--        <locator type="byXpath" value='//*[@id="app"]/div[1]/div/div/div/div[2]/div[8]/p[2]'>音乐教学-文案</locator>-->
+        <!--        <locator type="byXpath" value='//*[@id="app"]/div[1]/div/div/div/div[2]/div[8]/a'>音乐教学-查看详情跳转</locator>-->
+
+        <locator type="byXpath" value='//*[@id="layout-content"]/main/div/div[3]/div[8]/div'>在线教育-卡片</locator>
+        <locator type="byXpath" value='//*[@id="layout-content"]/main/div/div[3]/div[8]/div/div[1]/img'>在线教育-图片</locator>
+        <locator type="byXpath" value='//*[@id="layout-content"]/main/div/div[3]/div[8]/div/div[1]/div[1]'>在线教育-标题</locator>
+        <locator type="byXpath" value='//*[@id="layout-content"]/main/div/div[3]/div[8]/div/div[1]/div[2]'>在线教育-文案</locator>
+        <locator type="byXpath" value='//*[@id="layout-content"]/main/div/div[3]/div[8]/div/div[1]/a'>在线教育-查看详情跳转</locator>
+    </page>
+</map>

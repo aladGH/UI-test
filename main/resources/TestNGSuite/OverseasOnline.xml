@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="OverseasOnline Suite" verbose="10" parallel="false" thread-count="1">
+    <test name="登录页">
+        <classes>
+            <class name="TestCases.OverseasOnline.LoginPageTest"></class>
+        </classes>
+    </test>
+    <test name="登录及首页弹窗">
+        <classes>
+            <class name="TestCases.OverseasOnline.HomePopupTest"></class>
+        </classes>
+    </test>
+    <test name="概览页">
+        <classes>
+            <class name="TestCases.OverseasOnline.OverviewPageTest"></class>
+        </classes>
+    </test>
+    <test name="左侧菜单栏">
+        <classes>
+            <class name="TestCases.OverseasOnline.LeftMenuBarTest"></class>
+        </classes>
+    </test>
+    <test name="应用详情页">
+        <classes>
+            <class name="TestCases.OverseasOnline.ApplicationDetailsPageTest"></class>
+        </classes>
+    </test>
+</suite>

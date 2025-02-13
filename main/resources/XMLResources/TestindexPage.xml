@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map>
+    <!-- 概览页 -->
+    <page pageName="TestindexPage">
+        <locator type="byAttribute" name="nim-data" value='111'>百度图片</locator>
+        <locator type="byXpath" value='/html/body/div/div/select'>下拉框</locator>
+
+    </page>
+</map>

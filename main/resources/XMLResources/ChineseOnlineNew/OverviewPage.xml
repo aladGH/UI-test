@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map>
+    <!-- 概览页 -->
+    <page pageName="OverviewPage">
+        <locator type="byXpath" value='//*[@id="root-master"]/section/main/aside/div/div/button/div/div/div/div/div[2]/div/div[2]/button'>知道了</locator>
+
+        <locator type="byCssSelector" value='#root-master > section > header > img'>左上角LOGO存在</locator>
+        <locator type="byCssSelector" value='#root-master > section > header > div.yunxinHeader-right > div.info > div'>右上角存在</locator>
+
+        <locator type="byCssSelector" value="body > div:nth-child(9) > div > div > ul > li:nth-child(1) > span > div > div:nth-child(2)">基本信息存在-9</locator>
+        <locator type="byCssSelector" value="body > div:nth-child(9) > div > div > ul > li:nth-child(2) > span > div > div:nth-child(2)">实名认证存在-9</locator>
+        <locator type="byCssSelector" value="body > div:nth-child(9) > div > div > ul > li:nth-child(3) > span > div > div:nth-child(2)">账号权限存在-9</locator>
+        <locator type="byCssSelector" value="body > div:nth-child(9) > div > div > ul > li:nth-child(4) > span > div > div:nth-child(2)">预警设置存在-9</locator>
+        <locator type="byCssSelector" value="body > div:nth-child(9) > div > div > ul > li:nth-child(5) > span > div">工单存在-9</locator>
+        <locator type="byCssSelector" value="body > div:nth-child(9) > div > div > ul > li:nth-child(6) > span > div > div:nth-child(2)">退出账号存在-9</locator>
+
+        <locator type="byCssSelector" value="body > div:nth-child(8) > div > div > ul > li:nth-child(1) > span > div > div:nth-child(2)">基本信息存在-8</locator>
+        <locator type="byCssSelector" value="body > div:nth-child(8) > div > div > ul > li:nth-child(2) > span > div > div:nth-child(2)">实名认证存在-8</locator>
+        <locator type="byCssSelector" value="body > div:nth-child(8) > div > div > ul > li:nth-child(3) > span > div > div:nth-child(2)">账号权限存在-8</locator>
+        <locator type="byCssSelector" value="body > div:nth-child(8) > div > div > ul > li:nth-child(4) > span > div > div:nth-child(2)">预警设置存在-8</locator>
+        <locator type="byCssSelector" value="body > div:nth-child(8) > div > div > ul > li:nth-child(5) > span > div">工单存在-8</locator>
+        <locator type="byCssSelector" value="body > div:nth-child(8) > div > div > ul > li:nth-child(6) > span > div > div:nth-child(2)">退出账号存在-8</locator>
+
+        <locator type="byCssSelector" value="body > div:nth-child(13) > div > div > ul > li:nth-child(1) > span > div > div:nth-child(2)">基本信息存在-13</locator>
+        <locator type="byCssSelector" value="body > div:nth-child(13) > div > div > ul > li:nth-child(2) > span > div > div:nth-child(2)">实名认证存在-13</locator>
+        <locator type="byCssSelector" value="body > div:nth-child(13) > div > div > ul > li:nth-child(3) > span > div > div:nth-child(2)">账号权限存在-13</locator>
+        <locator type="byCssSelector" value="body > div:nth-child(13) > div > div > ul > li:nth-child(4) > span > div > div:nth-child(2)">预警设置存在-13</locator>
+        <locator type="byCssSelector" value="body > div:nth-child(13) > div > div > ul > li:nth-child(5) > span > div">工单存在-13</locator>
+        <locator type="byCssSelector" value="body > div:nth-child(13) > div > div > ul > li:nth-child(6) > span > div > div:nth-child(2)">退出账号存在-13</locator>
+
+        <locator type="byCssSelector" value="body > div:nth-child(15) > div > div > ul > li:nth-child(1) > span > div > div:nth-child(2)">基本信息存在-15</locator>
+        <locator type="byCssSelector" value="body > div:nth-child(15) > div > div > ul > li:nth-child(2) > span > div > div:nth-child(2)">实名认证存在-15</locator>
+        <locator type="byCssSelector" value="body > div:nth-child(15) > div > div > ul > li:nth-child(3) > span > div > div:nth-child(2)">账号权限存在-15</locator>
+        <locator type="byCssSelector" value="body > div:nth-child(15) > div > div > ul > li:nth-child(4) > span > div > div:nth-child(2)">预警设置存在-15</locator>
+        <locator type="byCssSelector" value="body > div:nth-child(15) > div > div > ul > li:nth-child(5) > span > div">工单存在-15</locator>
+        <locator type="byCssSelector" value="body > div:nth-child(15) > div > div > ul > li:nth-child(6) > span > div > div:nth-child(2)">退出账号存在-15</locator>
+
+        <locator type="byXpath" value='//*[@id="root-master"]/section/main/main/div/div/div/div[2]/div[2]/div/div/div/div[2]/div/div/div/img'>轮播图存在</locator>
+        <locator type="byXpath" value='//*[@id="root-master"]/section/main/main/div/div/div/div[2]/div[2]/div/div'>轮播图跳转地址正确</locator>
+
+        <locator type="byXpath" value='//*[@id="root-master"]/section/main/aside/div/div/ul/li[3]/span[2]'>QS文案正确</locator>
+        <locator type="byXpath" value='POI.e3e356'>QS跳转入口正确</locator>
+
+        <locator type="byXpath" value='//*[@id="root-master"]/section/main/main/div/div/div/div[1]'>应用管理大卡片存在</locator>
+    </page>
+</map>
